@@ -48,5 +48,5 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: marijadimova25/kiii-github-actions:latest
+          tags: marijadimova25/kiii-github-actions:${{ github.sha }}
   
